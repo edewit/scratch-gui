@@ -9,6 +9,13 @@ import boostImage from './boost.png';
 
 export default [
     {
+        name: 'Minecraft',
+        extensionURL: 'minecraft',
+        iconURL: 'http://www.rw-designer.com/icon-image/5547-48x48x32.png',
+        description: 'Use scratch to build minecraft worlds',
+        featured: true
+    },
+    {
         name: 'Music',
         extensionId: 'music',
         iconURL: musicImage,
