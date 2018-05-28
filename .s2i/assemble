@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+npm install
+npm run build
+
+NGINX_STATIC_DIR=dist
