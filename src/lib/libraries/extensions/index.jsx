@@ -50,6 +50,25 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Minecraft"
+                description="Name for the 'Minecraft' extension"
+                id="gui.extension.minecraft.name"
+            />
+        ),
+        extensionId: 'minecraft',
+        iconURL: 'http://www.rw-designer.com/icon-image/5547-48x48x32.png',
+        description: (
+            <FormattedMessage
+                defaultMessage="Use scratch to build minecraft stories"
+                description="Description for the 'Minecraft' extension"
+                id="gui.extension.minecraft.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"

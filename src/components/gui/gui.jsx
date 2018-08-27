@@ -208,11 +208,8 @@ const GUIComponent = props => {
                             {backpackOptions.visible ? (
                                 <Backpack host={backpackOptions.host} />
                             ) : null}
-                                stageSize={stageSize}
-                                    stageSize={stageSize}
-                                    vm={vm}
-                                />
                         </Box>
+
                     </Box>
                 </Box>
                 <DragLayer />
