@@ -205,6 +205,8 @@ const GUIComponent = props => {
                     canCreateCopy={canCreateCopy}
                     canCreateNew={canCreateNew}
                     canEditTitle={canEditTitle}
+                    canChangeLanguage={true}
+                    canManageFiles={true}
                     canRemix={canRemix}
                     canSave={canSave}
                     canShare={canShare}
