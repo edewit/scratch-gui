@@ -56,7 +56,8 @@ export default [
             />
         ),
         extensionId: 'minecraft',
-        iconURL: 'http://www.rw-designer.com/icon-image/5547-48x48x32.png',
+        insetIconURL: 'https://rawcdn.githack.com/vorburger/minecraft-storeys-maker/03e9106a8414c1b2d9d7a05de9f9bae7e9f0e261/logo/oasis.learn.study-Minecraft-Scratch-64x64.png',
+        iconURL: 'https://rawcdn.githack.com/edewit/scratch-gui/225bfbf8880c3bafb3e69d2b30c7942f7aac5fb5/src/lib/libraries/extensions/minecraft/storeys-bg.png',
         description: (
             <FormattedMessage
                 defaultMessage="Use scratch to build minecraft stories"
